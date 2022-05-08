@@ -1,0 +1,8 @@
+﻿log seviyeleri
+[https://www.tutorialsteacher.com/core/fundamentals-of-logging-in-dotnet-core]
+
+mic
+[https://docs.microsoft.com/tr-tr/aspnet/core/fundamentals/logging/?view=aspnetcore-5.0]
+
+conf ayarlarını appsettings'de de yapabilirsin.
+>> örnek conf ayarı => [https://github.com/serilog/serilog-settings-configuration]

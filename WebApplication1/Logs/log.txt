@@ -1,0 +1,67 @@
+2021-06-15 14:08:20.875 +03:00 [DBG] Hosting starting
+2021-06-15 14:08:21.326 +03:00 [DBG] Loaded hosting startup assembly WebApplication1
+2021-06-15 14:08:21.336 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 14:08:21.338 +03:00 [INF] Hosting environment: Development
+2021-06-15 14:08:21.343 +03:00 [INF] Content root path: E:\CAN\repos-D\LearnLogs\WebApplication1
+2021-06-15 14:08:21.343 +03:00 [DBG] Hosting started
+2021-06-15 14:08:21.390 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger - -
+2021-06-15 14:08:21.398 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-06-15 14:08:21.498 +03:00 [DBG] Connection ID "18230571306091282438" disconnecting.
+2021-06-15 14:08:21.501 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2021-06-15 14:08:21.514 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger - - - 301 - - 130.2611ms
+2021-06-15 14:08:21.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 159.1321ms
+2021-06-15 14:08:21.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - -
+2021-06-15 14:08:21.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - -
+2021-06-15 14:08:21.701 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - -
+2021-06-15 14:08:21.777 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-15 14:08:21.777 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-15 14:08:21.780 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-15 14:08:21.784 +03:00 [DBG] Connection ID "18302628891539275801" disconnecting.
+2021-06-15 14:08:21.791 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - - - 200 142933 text/css 89.6376ms
+2021-06-15 14:08:21.808 +03:00 [DBG] Connection ID "18374686485577203718" disconnecting.
+2021-06-15 14:08:21.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 128.6408ms
+2021-06-15 14:08:21.845 +03:00 [DBG] Connection ID "18230571297501347849" disconnecting.
+2021-06-15 14:08:21.848 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 148.3406ms
+2021-06-15 14:08:22.222 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - -
+2021-06-15 14:08:22.351 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js.map - -
+2021-06-15 14:08:22.352 +03:00 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2021-06-15 14:08:22.357 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-bundle.js.map - -
+2021-06-15 14:08:22.357 +03:00 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2021-06-15 14:08:22.399 +03:00 [DBG] Connection ID "18230571297501347851" disconnecting.
+2021-06-15 14:08:22.399 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.0677ms
+2021-06-15 14:08:22.405 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2021-06-15 14:08:22.406 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2021-06-15 14:08:22.407 +03:00 [DBG] Request did not match any endpoints
+2021-06-15 14:08:22.407 +03:00 [DBG] Request did not match any endpoints
+2021-06-15 14:08:22.411 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 60.3492ms
+2021-06-15 14:08:22.411 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-bundle.js.map - - - 404 - - 54.3206ms
+2021-06-15 14:08:25.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/WeatherForecast - -
+2021-06-15 14:08:25.692 +03:00 [DBG] The request path  does not match the path filter
+2021-06-15 14:08:25.706 +03:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2021-06-15 14:08:25.714 +03:00 [DBG] Endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2021-06-15 14:08:25.716 +03:00 [DBG] Request matched endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2021-06-15 14:08:25.717 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2021-06-15 14:08:25.730 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-06-15 14:08:25.749 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).
+2021-06-15 14:08:25.751 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-06-15 14:08:25.751 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-06-15 14:08:25.751 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-06-15 14:08:25.752 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-06-15 14:08:25.752 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-06-15 14:08:25.755 +03:00 [DBG] Executing controller factory for controller WebApplication1.Controllers.WeatherForecastController (WebApplication1)
+2021-06-15 14:08:25.756 +03:00 [DBG] Executed controller factory for controller WebApplication1.Controllers.WeatherForecastController (WebApplication1)
+2021-06-15 14:08:25.758 +03:00 [DBG] LogDebug -> Get method is called.
+2021-06-15 14:08:25.758 +03:00 [INF] LogInformation -> Get method is called.
+2021-06-15 14:08:25.758 +03:00 [WRN] LogWarning -> Get method is called.
+2021-06-15 14:08:25.758 +03:00 [ERR] LogError -> Get method is called.
+2021-06-15 14:08:25.762 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-06-15 14:08:25.766 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-06-15 14:08:25.767 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-06-15 14:08:25.767 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-06-15 14:08:25.767 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-06-15 14:08:25.768 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-06-15 14:08:25.769 +03:00 [INF] Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.
+2021-06-15 14:08:25.796 +03:00 [INF] Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 36.9237ms
+2021-06-15 14:08:25.796 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2021-06-15 14:08:25.797 +03:00 [DBG] Connection ID "18230571297501347855" disconnecting.
+2021-06-15 14:08:25.797 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/WeatherForecast - - - 200 - application/json;+charset=utf-8 106.0013ms

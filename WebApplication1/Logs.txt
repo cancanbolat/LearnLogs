@@ -1,0 +1,32 @@
+2021-06-15 13:57:31.533 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-15 13:57:31.555 +03:00 [INF] Hosting environment: Development
+2021-06-15 13:57:31.560 +03:00 [INF] Content root path: E:\CAN\repos-D\LearnLogs\WebApplication1
+2021-06-15 13:57:31.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger - -
+2021-06-15 13:57:31.686 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/index.html - -
+2021-06-15 13:57:31.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger - - - 301 - - 142.6887ms
+2021-06-15 13:57:31.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/index.html - - - 200 - text/html;charset=utf-8 153.5289ms
+2021-06-15 13:57:31.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - -
+2021-06-15 13:57:31.873 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - -
+2021-06-15 13:57:31.879 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - -
+2021-06-15 13:57:31.969 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-06-15 13:57:31.969 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-06-15 13:57:31.969 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-06-15 13:57:31.981 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui.css - - - 200 142933 text/css 105.2646ms
+2021-06-15 13:57:32.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 143.3708ms
+2021-06-15 13:57:32.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 166.3109ms
+2021-06-15 13:57:32.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - -
+2021-06-15 13:57:32.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 170.6457ms
+2021-06-15 13:57:32.536 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-bundle.js.map - -
+2021-06-15 13:57:32.536 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js.map - -
+2021-06-15 13:57:32.594 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-bundle.js.map - - - 404 - - 57.8421ms
+2021-06-15 13:57:32.594 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44351/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 57.7024ms
+2021-06-15 13:57:35.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44351/WeatherForecast - -
+2021-06-15 13:57:35.490 +03:00 [INF] Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2021-06-15 13:57:35.520 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).
+2021-06-15 13:57:35.527 +03:00 [INF] LogInformation -> Get method is called.
+2021-06-15 13:57:35.529 +03:00 [WRN] LogWarning -> Get method is called.
+2021-06-15 13:57:35.532 +03:00 [ERR] LogError -> Get method is called.
+2021-06-15 13:57:35.540 +03:00 [INF] Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.
+2021-06-15 13:57:35.568 +03:00 [INF] Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 37.8471ms
+2021-06-15 13:57:35.572 +03:00 [INF] Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2021-06-15 13:57:35.577 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44351/WeatherForecast - - - 200 - application/json;+charset=utf-8 96.2497ms
